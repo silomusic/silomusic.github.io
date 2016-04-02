@@ -7,8 +7,9 @@
   <meta name="description" content="Web rappera ŠILO, pochádzajúceho z Dolného Kubína na Orave. Sleduj nové tracky, aktuálne koncerty a prihlás sa na sociálne siete. Kvalitný rap bez pózy.">
   <meta name="keywords" content="rap, Dolný Kubín, Kubín, Orava, stoka, underground, freestyle, hip-hop, hip, hop, hip hop">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> -->
+
   <link rel="stylesheet" href="css/combined.css">
+
   <title>ŠILO - Official Website</title>
 </head>
 
@@ -25,24 +26,25 @@
         <span class="navigation-toggle-icon"></span>
       </label>
       <!-- End of navigation toggle -->
+
       <ul class="nav__list">
 
-          <li><a href="omne.html">O MNE</a></li>
+        <li><a href="omne.html">O MNE</a></li>
 
 
-          <li><a href="#tvorba">TVORBA</a></li>
+        <li><a href="#tvorba">TVORBA</a></li>
 
 
-          <li><a href="#koncert">KONCERTY</a></li>
+        <li><a href="#koncert">KONCERTY</a></li>
 
 
-          <li><a href="#kontakt">KONTAKT</a></li>
+        <li><a href="#kontakt">KONTAKT</a></li>
 
       </ul>
+
       <div class="soc-icons">
         <a href="https://www.youtube.com/channel/UCnM-2sEAcUaoAur4oUj0Yvg" target="_blank">
-          <svg class="youtube-icon" enable-background="new 0 0 56.693 56.693" height="56.693px" version="1.1" viewBox="0 0 56.693 56.693" width="56.693px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-            fill="#fff">
+          <svg class="youtube-icon" enable-background="new 0 0 56.693 56.693" height="56.693px" version="1.1" viewBox="0 0 56.693 56.693" width="56.693px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff">
             <g>
               <polygon points="17.833,31.853 19.616,31.853 19.616,40.71 21.339,40.71 21.339,31.853 23.12,31.853 23.12,30.345 17.833,30.345     " />
               <path d="M28.413,24.493c0.234,0,0.42-0.062,0.557-0.189c0.137-0.131,0.207-0.309,0.207-0.533v-4.59c0-0.184-0.07-0.334-0.211-0.445   c-0.141-0.115-0.324-0.172-0.553-0.172c-0.209,0-0.379,0.057-0.512,0.172c-0.131,0.111-0.195,0.262-0.195,0.445v4.59   c0,0.23,0.061,0.408,0.184,0.533C28.011,24.431,28.187,24.493,28.413,24.493z"
@@ -59,8 +61,7 @@
           </svg>
         </a>
         <a href="https://www.facebook.com/ŠILO-316276621895633/" target="_blank">
-          <svg class="facebook-icon" enable-background="new 0 0 56.693 56.693" height="56.693px" version="1.1" viewBox="0 0 56.693 56.693" width="56.693px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-            fill="#fff">
+          <svg class="facebook-icon" enable-background="new 0 0 56.693 56.693" height="56.693px" version="1.1" viewBox="0 0 56.693 56.693" width="56.693px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff">
             <path d="M28.347,5.157c-13.6,0-24.625,11.027-24.625,24.625c0,13.6,11.025,24.623,24.625,24.623c13.6,0,24.625-11.023,24.625-24.623  C52.972,16.184,41.946,5.157,28.347,5.157z M34.864,29.679h-4.264c0,6.814,0,15.207,0,15.207h-6.32c0,0,0-8.307,0-15.207h-3.006  V24.31h3.006v-3.479c0-2.49,1.182-6.377,6.379-6.377l4.68,0.018v5.215c0,0-2.846,0-3.398,0c-0.555,0-1.34,0.277-1.34,1.461v3.163  h4.818L34.864,29.679z"
             />
           </svg>
@@ -131,62 +132,11 @@
     <p class="footer__text">&copy;2016 - Pre ŠILA vytvoril <a href="http://andrej.kostal.me" target="_blank"> Andrej Košťál</a></p>
   </footer>
 
+
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
-  <script src="../dist/js/jquery.youmax.min.js"></script>
+  <script src="scripts/combined.js"></script>
 
-  <script type="text/javascript">
-  jQuery(function($) {
-    $('.navigation-toggle').click(function() {
-      $('.nav__list').toggleClass('expand');
-      $('#nav').toggleClass('nav-expand');
-      $('.soc-icons').toggle();
-    });
-  });
-
-  jQuery(function($) {
-    $('.nav__list').click(function() {
-      $('.nav__list').toggleClass('expand');
-      $('#nav').toggleClass('nav-expand');
-      $('.soc-icons').toggle();
-    });
-  });
-  </script>
-
-  <script type="text/javascript">
-  $("#youmax").youmax({
-
-    apiKey: "AIzaSyB911qn6zuqqQaUxFEyjGWR3lrpMVZejZo",
-    vimeoAccessToken: "",
-    clientId: "",
-    channel: "https://www.youtube.com/channel/UCnM-2sEAcUaoAur4oUj0Yvg",
-    youtube_channel_uploads: [{
-      name: "Tvorba",
-      url: "https://www.youtube.com/channel/UCnM-2sEAcUaoAur4oUj0Yvg",
-      selected: true
-    }, ],
-
-    displayVideo: "popup",
-    skin: "clean",
-    loadButtonSize: "small",
-    hideHeader: true,
-    hideNavigation: true,
-    hideComments: true,
-    hideVideoDetails: false,
-    hideDefinition: true,
-    showTextInsteadOfIcons: true,
-    maxResults: 6,
-    maxComments: 0,
-    fourColumnContainerWidth: "8000px",
-    threeColumnContainerWidth: "1200px",
-    twoColumnContainerWidth: "1100px",
-    oneColumnContainerWidth: "700px",
-    maxContainerWidth: "100%",
-    translatorFile: "../translation.json",
-
-  });
-</script>
-  
 
 </body>
 
