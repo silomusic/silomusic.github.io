@@ -1,0 +1,34 @@
+{"translator":
+	{
+		"search"			:	"Hľadaj",
+		"uploads"			:	"Uploady",
+		"playlists"			:	"Playlisty",
+		"events"			:	"Udalosti",
+		"views"				:	"Videnia",
+		"likes"				:	"Lajky",
+		"videos"			:	"Videá",
+		"subscribers"		:	"Odoberatelia",
+		"year"				:	"rok",
+		"years"				:	"roky",
+		"month"				:	"mesiac",
+		"months"			:	"mesiace",
+		"day"				:	"deň",
+		"days"				:	"dní",
+		"hour"				:	"hodina",
+		"hours"				:	"hodín",
+		"ago"				:	"pred",
+		"now"				:	"práve teraz",
+		"thoughts"			:	"Zdieľaj svoje myšlienky...",
+		"comments"			:	"komenty",
+		"loadmore"			:	"Viac",
+		"next"				:	"Ďalšie",
+		"previous"			:	"Predchádzajúce",
+		"loadmorecomments" 	:	"Načítaj viac komentárov",
+		"showcomments" 		:	"Ukáž komentáre",
+		"done"				:	"Hotovo",
+		"nocommentsfound"	:	"Nenašli sa žiadne ďalšie komentáre",
+		"loading"			:	"Načítavam..",
+		"loadinghd"			:	"Načítavam HD..."
+
+	}
+}
